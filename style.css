@@ -9,11 +9,20 @@ body {
 }
 
 .home-image-section {
-  max-width: 100vw;
-  max-height: 20vh;
+  height: 52vh;
 }
 
-.home-image-section img {
+.home-image-section .main-image {
+  max-height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+}
+
+.footer {
+  /* min-height: 5vh; */
+  /* background-color: #2B2922; */
+}
+
+.footer i {
+  font-size: 2rem;
 }
