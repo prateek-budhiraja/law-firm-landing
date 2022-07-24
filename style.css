@@ -82,6 +82,7 @@ button.get-started:hover {
 
 }
 
+/* Image section */
 .home-image-section {
   height: 52vh;
 }
@@ -92,9 +93,36 @@ button.get-started:hover {
   object-fit: cover;
 }
 
+/* Footer */
 .footer {
-  /* min-height: 5vh; */
-  /* background-color: #2B2922; */
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.box {
+  padding: 19px 25px;
+  background-color: #403d32;
+  color: #c09e27;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #c09e27;
+  color: #fff;
+}
+
+.box::before {
+  padding: 19px 25px;
+  background-color: #403d32;
+  color: #c09e27;
+  cursor: pointer;
+}
+
+.footer div:last-child {
+  background-color: #c09e27;
+  color: #fff;
 }
 
 .footer i {
