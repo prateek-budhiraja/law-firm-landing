@@ -22,6 +22,7 @@ nav {
 nav .links {
   display: flex;
   gap: 4em;
+  align-items: center;
 }
 
 nav .nav-links {
@@ -47,6 +48,22 @@ nav .nav-links .nav-link:first-child {
 nav .brand-logo img.logo {
   width: 70%;
 }
+
+button.get-started {
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: 1px solid #c09e27;
+  background: transparent;
+  color: #c09e27;
+  cursor: pointer;
+}
+
+button.get-started:hover {
+  /* border: 1px solid #c09e27; */
+  background: #c09e27;
+  color: #fff;
+}
+
 
 .home-image-section {
   height: 52vh;
