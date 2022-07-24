@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,45 @@
 
 body {
   background-color: #2B2922;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
+}
+
+/* Nav bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+nav .links {
+  display: flex;
+  gap: 4em;
+}
+
+nav .nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 4em;
+  font-weight: 200;
+}
+
+nav .nav-links .nav-link {
+  color: #a1acad;
+  cursor: pointer;
+}
+
+nav .nav-links .nav-link:hover {
+  color: #fff;
+}
+
+nav .nav-links .nav-link:first-child {
+  color: #fff;
+}
+
+nav .brand-logo img.logo {
+  width: 70%;
 }
 
 .home-image-section {
