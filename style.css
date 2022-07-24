@@ -16,7 +16,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 60px;
 }
 
 nav .links {
@@ -64,6 +64,23 @@ button.get-started:hover {
   color: #fff;
 }
 
+/* Hero Section */
+.home-content {
+  display: flex;
+  padding: 10px 100px 20px 60px;
+  align-items: center;
+  gap: 4em;
+}
+
+.home-content h1.left {
+  font-size: 4.5rem;
+}
+
+.home-content p.right-content {
+  font-size: 1.1rem;
+  font-weight: 200;
+
+}
 
 .home-image-section {
   height: 52vh;
