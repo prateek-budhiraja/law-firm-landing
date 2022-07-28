@@ -28,5 +28,5 @@
 ## How the website looks like
 
 <p align="center">
-<img src="desktop.png" max-width=600px>
+<img src="image.png" max-width=600px>
 </p>
