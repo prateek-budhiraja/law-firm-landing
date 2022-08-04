@@ -79,7 +79,6 @@ button.get-started:hover {
 .home-content p.right-content {
   font-size: 1.1rem;
   font-weight: 200;
-
 }
 
 /* Image section */
@@ -93,10 +92,13 @@ button.get-started:hover {
   object-fit: cover;
 }
 
+
+
 /* Footer */
 .footer {
   display: flex;
-  position: absolute;
+  /* position: absolute; */
+  float: right;
   bottom: 0;
   right: 0;
 }
@@ -127,4 +129,44 @@ button.get-started:hover {
 
 .footer i {
   font-size: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+
+  nav {
+    padding: 20px 20px;
+  }
+
+  nav .brand-logo img.logo {
+    width: 80px;
+  }
+
+  nav .nav-links {
+    display: none;
+  }
+
+  button.get-started {
+    padding: 6px 8px;
+    font-size: .8rem;
+    /* margin-right: 10px; */
+  }
+
+  .home-content {
+    display: block;
+    padding: 10px 20px 60px 20px;
+  }
+
+  .home-content h1.left {
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .home-content p.right-content {
+    font-size: 0.8rem;
+  }
+
+  .home-image-section {
+    max-height: 30vh;
+  }
 }
